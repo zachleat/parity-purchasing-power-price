@@ -10,8 +10,7 @@ title: Parity Purchasing Power
 		<title>{{ title }}</title>
 		<link rel="stylesheet" href="/css/simple.css">
 		<style>
-		parity-purchasing-price {
-			display: block;
+		main {
 			font-size: 2em;
 		}
 		</style>
@@ -43,11 +42,26 @@ title: Parity Purchasing Power
 				return localized.format(price);
 			}
 
+			fetchAutoCountryCode() {
+				for(let cls of document.documentElement.classList) {
+					// CloudCannon
+					if(cls.startsWith("country-")) {
+						return cls.slice("country-".length);
+					}
+				}
+			}
+
 			connectedCallback() {
-				let from = this.getAttribute(PPP.attrs.from) || "us";
-				let to = this.getAttribute(PPP.attrs.to) || "us";
+				let from = this.getAttribute(PPP.attrs.from);
+				let to = this.getAttribute(PPP.attrs.to);
+
+				if(to === "auto") {
+					to = fetchAutoCountryCode();
+				}
+
 				let fromPricing = PPP.pricing[from];
 				let toPricing = PPP.pricing[to];
+
 				if(from !== to && fromPricing && toPricing) {
 					let price = parseFloat(this.textContent.replace(/[^0-9\.]*/g, ""));
 					let fromRatio = parseFloat(fromPricing.ratio);
