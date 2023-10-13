@@ -55,7 +55,7 @@ title: Parity Purchasing Power
 				let from = this.getAttribute(PPP.attrs.from);
 				let to = this.getAttribute(PPP.attrs.to);
 
-				if(to === "auto") {
+				if(!to || to === "auto") {
 					to = fetchAutoCountryCode();
 				}
 
