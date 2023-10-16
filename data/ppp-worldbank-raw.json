@@ -1,0 +1,1332 @@
+[
+  {
+    "country": "Aruba",
+    "code": "ABW",
+    "pppratio": 1.224657849
+  },
+  {
+    "country": "Africa Eastern and Southern",
+    "code": "AFE",
+    "pppratio": ""
+  },
+  {
+    "country": "Afghanistan",
+    "code": "AFG",
+    "pppratio": 18.36658748
+  },
+  {
+    "country": "Africa Western and Central",
+    "code": "AFW",
+    "pppratio": ""
+  },
+  {
+    "country": "Angola",
+    "code": "AGO",
+    "pppratio": 197.8711299
+  },
+  {
+    "country": "Albania",
+    "code": "ALB",
+    "pppratio": 42.50180632
+  },
+  {
+    "country": "Andorra",
+    "code": "AND",
+    "pppratio": ""
+  },
+  {
+    "country": "Arab World",
+    "code": "ARB",
+    "pppratio": ""
+  },
+  {
+    "country": "United Arab Emirates",
+    "code": "ARE",
+    "pppratio": 2.115041068
+  },
+  {
+    "country": "Argentina",
+    "code": "ARG",
+    "pppratio": 42.53250534
+  },
+  {
+    "country": "Armenia",
+    "code": "ARM",
+    "pppratio": 159.7534514
+  },
+  {
+    "country": "American Samoa",
+    "code": "ASM",
+    "pppratio": ""
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "code": "ATG",
+    "pppratio": 2.058362443
+  },
+  {
+    "country": "Australia",
+    "code": "AUS",
+    "pppratio": 1.447578
+  },
+  {
+    "country": "Austria",
+    "code": "AUT",
+    "pppratio": 0.756308
+  },
+  {
+    "country": "Azerbaijan",
+    "code": "AZE",
+    "pppratio": 0.5772308529
+  },
+  {
+    "country": "Burundi",
+    "code": "BDI",
+    "pppratio": 668.6587428
+  },
+  {
+    "country": "Belgium",
+    "code": "BEL",
+    "pppratio": 0.736686
+  },
+  {
+    "country": "Benin",
+    "code": "BEN",
+    "pppratio": 205.9296483
+  },
+  {
+    "country": "Burkina Faso",
+    "code": "BFA",
+    "pppratio": 205.8942505
+  },
+  {
+    "country": "Bangladesh",
+    "code": "BGD",
+    "pppratio": 31.95791252
+  },
+  {
+    "country": "Bulgaria",
+    "code": "BGR",
+    "pppratio": 0.7189494826
+  },
+  {
+    "country": "Bahrain",
+    "code": "BHR",
+    "pppratio": 0.1839546267
+  },
+  {
+    "country": "Bahamas, The",
+    "code": "BHS",
+    "pppratio": 0.8521864288
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "pppratio": 0.6752530509
+  },
+  {
+    "country": "Belarus",
+    "code": "BLR",
+    "pppratio": 0.8670817056
+  },
+  {
+    "country": "Belize",
+    "code": "BLZ",
+    "pppratio": 1.288327202
+  },
+  {
+    "country": "Bermuda",
+    "code": "BMU",
+    "pppratio": 1.289222992
+  },
+  {
+    "country": "Bolivia",
+    "code": "BOL",
+    "pppratio": 2.60153974
+  },
+  {
+    "country": "Brazil",
+    "code": "BRA",
+    "pppratio": 2.553462103
+  },
+  {
+    "country": "Barbados",
+    "code": "BRB",
+    "pppratio": 2.269815901
+  },
+  {
+    "country": "Brunei Darussalam",
+    "code": "BRN",
+    "pppratio": 0.6369670048
+  },
+  {
+    "country": "Bhutan",
+    "code": "BTN",
+    "pppratio": 20.06525667
+  },
+  {
+    "country": "Botswana",
+    "code": "BWA",
+    "pppratio": 4.879124144
+  },
+  {
+    "country": "Central African Republic",
+    "code": "CAF",
+    "pppratio": 276.7023764
+  },
+  {
+    "country": "Canada",
+    "code": "CAN",
+    "pppratio": 1.238156
+  },
+  {
+    "country": "Central Europe and the Baltics",
+    "code": "CEB",
+    "pppratio": ""
+  },
+  {
+    "country": "Switzerland",
+    "code": "CHE",
+    "pppratio": 1.106428
+  },
+  {
+    "country": "Channel Islands",
+    "code": "CHI",
+    "pppratio": ""
+  },
+  {
+    "country": "Chile",
+    "code": "CHL",
+    "pppratio": 435.156175
+  },
+  {
+    "country": "China",
+    "code": "CHN",
+    "pppratio": 4.176179936
+  },
+  {
+    "country": "Cote d'Ivoire",
+    "code": "CIV",
+    "pppratio": 247.0297127
+  },
+  {
+    "country": "Cameroon",
+    "code": "CMR",
+    "pppratio": 226.3766145
+  },
+  {
+    "country": "Congo, Dem. Rep.",
+    "code": "COD",
+    "pppratio": 969.254031
+  },
+  {
+    "country": "Congo, Rep.",
+    "code": "COG",
+    "pppratio": 355.8647811
+  },
+  {
+    "country": "Colombia",
+    "code": "COL",
+    "pppratio": 1353.37981
+  },
+  {
+    "country": "Comoros",
+    "code": "COM",
+    "pppratio": 184.1824648
+  },
+  {
+    "country": "Cabo Verde",
+    "code": "CPV",
+    "pppratio": 45.58866799
+  },
+  {
+    "country": "Costa Rica",
+    "code": "CRI",
+    "pppratio": 343.71626
+  },
+  {
+    "country": "Caribbean small states",
+    "code": "CSS",
+    "pppratio": ""
+  },
+  {
+    "country": "Cuba",
+    "code": "CUB",
+    "pppratio": ""
+  },
+  {
+    "country": "Curacao",
+    "code": "CUW",
+    "pppratio": 1.382903638
+  },
+  {
+    "country": "Cayman Islands",
+    "code": "CYM",
+    "pppratio": 0.9627665738
+  },
+  {
+    "country": "Cyprus",
+    "code": "CYP",
+    "pppratio": 0.6007669413
+  },
+  {
+    "country": "Czechia",
+    "code": "CZE",
+    "pppratio": 12.742986
+  },
+  {
+    "country": "Germany",
+    "code": "DEU",
+    "pppratio": 0.736277
+  },
+  {
+    "country": "Djibouti",
+    "code": "DJI",
+    "pppratio": 100.001975
+  },
+  {
+    "country": "Dominica",
+    "code": "DMA",
+    "pppratio": 1.72145535
+  },
+  {
+    "country": "Denmark",
+    "code": "DNK",
+    "pppratio": 6.589808
+  },
+  {
+    "country": "Dominican Republic",
+    "code": "DOM",
+    "pppratio": 23.59980219
+  },
+  {
+    "country": "Algeria",
+    "code": "DZA",
+    "pppratio": 41.06592882
+  },
+  {
+    "country": "East Asia & Pacific (excluding high income)",
+    "code": "EAP",
+    "pppratio": ""
+  },
+  {
+    "country": "Early-demographic dividend",
+    "code": "EAR",
+    "pppratio": ""
+  },
+  {
+    "country": "East Asia & Pacific",
+    "code": "EAS",
+    "pppratio": ""
+  },
+  {
+    "country": "Europe & Central Asia (excluding high income)",
+    "code": "ECA",
+    "pppratio": ""
+  },
+  {
+    "country": "Europe & Central Asia",
+    "code": "ECS",
+    "pppratio": ""
+  },
+  {
+    "country": "Ecuador",
+    "code": "ECU",
+    "pppratio": 0.5066993582
+  },
+  {
+    "country": "Egypt, Arab Rep.",
+    "code": "EGY",
+    "pppratio": 4.537192382
+  },
+  {
+    "country": "Euro area",
+    "code": "EMU",
+    "pppratio": ""
+  },
+  {
+    "country": "Eritrea",
+    "code": "ERI",
+    "pppratio": ""
+  },
+  {
+    "country": "Spain",
+    "code": "ESP",
+    "pppratio": 0.625949
+  },
+  {
+    "country": "Estonia",
+    "code": "EST",
+    "pppratio": 0.543421
+  },
+  {
+    "country": "Ethiopia",
+    "code": "ETH",
+    "pppratio": 14.10266011
+  },
+  {
+    "country": "European Union",
+    "code": "EUU",
+    "pppratio": ""
+  },
+  {
+    "country": "Fragile and conflict affected situations",
+    "code": "FCS",
+    "pppratio": ""
+  },
+  {
+    "country": "Finland",
+    "code": "FIN",
+    "pppratio": 0.82669
+  },
+  {
+    "country": "Fiji",
+    "code": "FJI",
+    "pppratio": 0.8416866181
+  },
+  {
+    "country": "France",
+    "code": "FRA",
+    "pppratio": 0.718667
+  },
+  {
+    "country": "Faroe Islands",
+    "code": "FRO",
+    "pppratio": ""
+  },
+  {
+    "country": "Micronesia, Fed. Sts.",
+    "code": "FSM",
+    "pppratio": 0.9762334658
+  },
+  {
+    "country": "Gabon",
+    "code": "GAB",
+    "pppratio": 314.1500229
+  },
+  {
+    "country": "United Kingdom",
+    "code": "GBR",
+    "pppratio": 0.676658
+  },
+  {
+    "country": "Georgia",
+    "code": "GEO",
+    "pppratio": 0.9467831401
+  },
+  {
+    "country": "Ghana",
+    "code": "GHA",
+    "pppratio": 2.33158436
+  },
+  {
+    "country": "Gibraltar",
+    "code": "GIB",
+    "pppratio": ""
+  },
+  {
+    "country": "Guinea",
+    "code": "GIN",
+    "pppratio": 3984.865395
+  },
+  {
+    "country": "Gambia, The",
+    "code": "GMB",
+    "pppratio": 17.3490939
+  },
+  {
+    "country": "Guinea-Bissau",
+    "code": "GNB",
+    "pppratio": 218.1837322
+  },
+  {
+    "country": "Equatorial Guinea",
+    "code": "GNQ",
+    "pppratio": 257.7297741
+  },
+  {
+    "country": "Greece",
+    "code": "GRC",
+    "pppratio": 0.545545
+  },
+  {
+    "country": "Grenada",
+    "code": "GRD",
+    "pppratio": 1.610675076
+  },
+  {
+    "country": "Greenland",
+    "code": "GRL",
+    "pppratio": ""
+  },
+  {
+    "country": "Guatemala",
+    "code": "GTM",
+    "pppratio": 3.948868877
+  },
+  {
+    "country": "Guam",
+    "code": "GUM",
+    "pppratio": ""
+  },
+  {
+    "country": "Guyana",
+    "code": "GUY",
+    "pppratio": 86.16752919
+  },
+  {
+    "country": "High income",
+    "code": "HIC",
+    "pppratio": ""
+  },
+  {
+    "country": "Hong Kong SAR, China",
+    "code": "HKG",
+    "pppratio": 5.839073542
+  },
+  {
+    "country": "Honduras",
+    "code": "HND",
+    "pppratio": 10.82633588
+  },
+  {
+    "country": "Heavily indebted poor countries (HIPC)",
+    "code": "HPC",
+    "pppratio": ""
+  },
+  {
+    "country": "Croatia",
+    "code": "HRV",
+    "pppratio": 0.4321671229
+  },
+  {
+    "country": "Haiti",
+    "code": "HTI",
+    "pppratio": 46.53893985
+  },
+  {
+    "country": "Hungary",
+    "code": "HUN",
+    "pppratio": 154.748155
+  },
+  {
+    "country": "IBRD only",
+    "code": "IBD",
+    "pppratio": ""
+  },
+  {
+    "country": "IDA & IBRD total",
+    "code": "IBT",
+    "pppratio": ""
+  },
+  {
+    "country": "IDA total",
+    "code": "IDA",
+    "pppratio": ""
+  },
+  {
+    "country": "IDA blend",
+    "code": "IDB",
+    "pppratio": ""
+  },
+  {
+    "country": "Indonesia",
+    "code": "IDN",
+    "pppratio": 4738.860337
+  },
+  {
+    "country": "IDA only",
+    "code": "IDX",
+    "pppratio": ""
+  },
+  {
+    "country": "Isle of Man",
+    "code": "IMN",
+    "pppratio": ""
+  },
+  {
+    "country": "India",
+    "code": "IND",
+    "pppratio": 22.63155556
+  },
+  {
+    "country": "Not classified",
+    "code": "INX",
+    "pppratio": ""
+  },
+  {
+    "country": "Ireland",
+    "code": "IRL",
+    "pppratio": 0.794732
+  },
+  {
+    "country": "Iran, Islamic Rep.",
+    "code": "IRN",
+    "pppratio": 45869.4118
+  },
+  {
+    "country": "Iraq",
+    "code": "IRQ",
+    "pppratio": 713.4878052
+  },
+  {
+    "country": "Iceland",
+    "code": "ISL",
+    "pppratio": 149.679879
+  },
+  {
+    "country": "Israel",
+    "code": "ISR",
+    "pppratio": 3.824142
+  },
+  {
+    "country": "Italy",
+    "code": "ITA",
+    "pppratio": 0.64754
+  },
+  {
+    "country": "Jamaica",
+    "code": "JAM",
+    "pppratio": 73.73077325
+  },
+  {
+    "country": "Jordan",
+    "code": "JOR",
+    "pppratio": 0.2829346232
+  },
+  {
+    "country": "Japan",
+    "code": "JPN",
+    "pppratio": 102.050113
+  },
+  {
+    "country": "Kazakhstan",
+    "code": "KAZ",
+    "pppratio": 153.3490718
+  },
+  {
+    "country": "Kenya",
+    "code": "KEN",
+    "pppratio": 43.33202005
+  },
+  {
+    "country": "Kyrgyz Republic",
+    "code": "KGZ",
+    "pppratio": 20.30701387
+  },
+  {
+    "country": "Cambodia",
+    "code": "KHM",
+    "pppratio": 1386.321726
+  },
+  {
+    "country": "Kiribati",
+    "code": "KIR",
+    "pppratio": 1.061110284
+  },
+  {
+    "country": "St. Kitts and Nevis",
+    "code": "KNA",
+    "pppratio": 1.670522435
+  },
+  {
+    "country": "Korea, Rep.",
+    "code": "KOR",
+    "pppratio": 854.096091
+  },
+  {
+    "country": "Kuwait",
+    "code": "KWT",
+    "pppratio": 0.1927313648
+  },
+  {
+    "country": "Latin America & Caribbean (excluding high income)",
+    "code": "LAC",
+    "pppratio": ""
+  },
+  {
+    "country": "Lao PDR",
+    "code": "LAO",
+    "pppratio": 2839.91279
+  },
+  {
+    "country": "Lebanon",
+    "code": "LBN",
+    "pppratio": 3392.788106
+  },
+  {
+    "country": "Liberia",
+    "code": "LBR",
+    "pppratio": 0.4302287224
+  },
+  {
+    "country": "Libya",
+    "code": "LBY",
+    "pppratio": 1.192394776
+  },
+  {
+    "country": "St. Lucia",
+    "code": "LCA",
+    "pppratio": 1.765685376
+  },
+  {
+    "country": "Latin America & Caribbean",
+    "code": "LCN",
+    "pppratio": ""
+  },
+  {
+    "country": "Least developed countries: UN classification",
+    "code": "LDC",
+    "pppratio": ""
+  },
+  {
+    "country": "Low income",
+    "code": "LIC",
+    "pppratio": ""
+  },
+  {
+    "country": "Liechtenstein",
+    "code": "LIE",
+    "pppratio": ""
+  },
+  {
+    "country": "Sri Lanka",
+    "code": "LKA",
+    "pppratio": 54.32923758
+  },
+  {
+    "country": "Lower middle income",
+    "code": "LMC",
+    "pppratio": ""
+  },
+  {
+    "country": "Low & middle income",
+    "code": "LMY",
+    "pppratio": ""
+  },
+  {
+    "country": "Lesotho",
+    "code": "LSO",
+    "pppratio": 6.076671241
+  },
+  {
+    "country": "Late-demographic dividend",
+    "code": "LTE",
+    "pppratio": ""
+  },
+  {
+    "country": "Lithuania",
+    "code": "LTU",
+    "pppratio": 0.457769
+  },
+  {
+    "country": "Luxembourg",
+    "code": "LUX",
+    "pppratio": 0.858861
+  },
+  {
+    "country": "Latvia",
+    "code": "LVA",
+    "pppratio": 0.508965
+  },
+  {
+    "country": "Macao SAR, China",
+    "code": "MAC",
+    "pppratio": 4.912254822
+  },
+  {
+    "country": "St. Martin (French part)",
+    "code": "MAF",
+    "pppratio": ""
+  },
+  {
+    "country": "Morocco",
+    "code": "MAR",
+    "pppratio": 3.836524494
+  },
+  {
+    "country": "Monaco",
+    "code": "MCO",
+    "pppratio": ""
+  },
+  {
+    "country": "Moldova",
+    "code": "MDA",
+    "pppratio": 6.167120024
+  },
+  {
+    "country": "Madagascar",
+    "code": "MDG",
+    "pppratio": 1178.565754
+  },
+  {
+    "country": "Maldives",
+    "code": "MDV",
+    "pppratio": 7.69595646
+  },
+  {
+    "country": "Middle East & North Africa",
+    "code": "MEA",
+    "pppratio": ""
+  },
+  {
+    "country": "Mexico",
+    "code": "MEX",
+    "pppratio": 10.40177
+  },
+  {
+    "country": "Marshall Islands",
+    "code": "MHL",
+    "pppratio": 0.9381971284
+  },
+  {
+    "country": "Middle income",
+    "code": "MIC",
+    "pppratio": ""
+  },
+  {
+    "country": "North Macedonia",
+    "code": "MKD",
+    "pppratio": 19.01696286
+  },
+  {
+    "country": "Mali",
+    "code": "MLI",
+    "pppratio": 208.8975956
+  },
+  {
+    "country": "Malta",
+    "code": "MLT",
+    "pppratio": 0.5789180626
+  },
+  {
+    "country": "Myanmar",
+    "code": "MMR",
+    "pppratio": 405.2704227
+  },
+  {
+    "country": "Middle East & North Africa (excluding high income)",
+    "code": "MNA",
+    "pppratio": ""
+  },
+  {
+    "country": "Montenegro",
+    "code": "MNE",
+    "pppratio": 0.3413883162
+  },
+  {
+    "country": "Mongolia",
+    "code": "MNG",
+    "pppratio": 1010.455858
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "code": "MNP",
+    "pppratio": ""
+  },
+  {
+    "country": "Mozambique",
+    "code": "MOZ",
+    "pppratio": 23.7856069
+  },
+  {
+    "country": "Mauritania",
+    "code": "MRT",
+    "pppratio": 13.33784339
+  },
+  {
+    "country": "Mauritius",
+    "code": "MUS",
+    "pppratio": 16.38217871
+  },
+  {
+    "country": "Malawi",
+    "code": "MWI",
+    "pppratio": 310.3344318
+  },
+  {
+    "country": "Malaysia",
+    "code": "MYS",
+    "pppratio": 1.584063594
+  },
+  {
+    "country": "North America",
+    "code": "NAC",
+    "pppratio": ""
+  },
+  {
+    "country": "Namibia",
+    "code": "NAM",
+    "pppratio": 7.154516732
+  },
+  {
+    "country": "New Caledonia",
+    "code": "NCL",
+    "pppratio": ""
+  },
+  {
+    "country": "Niger",
+    "code": "NER",
+    "pppratio": 250.1433424
+  },
+  {
+    "country": "Nigeria",
+    "code": "NGA",
+    "pppratio": 151.8967652
+  },
+  {
+    "country": "Nicaragua",
+    "code": "NIC",
+    "pppratio": 11.5629013
+  },
+  {
+    "country": "Netherlands",
+    "code": "NLD",
+    "pppratio": 0.769964
+  },
+  {
+    "country": "Norway",
+    "code": "NOR",
+    "pppratio": 9.512157
+  },
+  {
+    "country": "Nepal",
+    "code": "NPL",
+    "pppratio": 34.07883513
+  },
+  {
+    "country": "Nauru",
+    "code": "NRU",
+    "pppratio": 1.285298314
+  },
+  {
+    "country": "New Zealand",
+    "code": "NZL",
+    "pppratio": 1.45911
+  },
+  {
+    "country": "OECD members",
+    "code": "OED",
+    "pppratio": ""
+  },
+  {
+    "country": "Oman",
+    "code": "OMN",
+    "pppratio": 0.1982248136
+  },
+  {
+    "country": "Other small states",
+    "code": "OSS",
+    "pppratio": ""
+  },
+  {
+    "country": "Pakistan",
+    "code": "PAK",
+    "pppratio": 41.76346125
+  },
+  {
+    "country": "Panama",
+    "code": "PAN",
+    "pppratio": 0.4615494707
+  },
+  {
+    "country": "Peru",
+    "code": "PER",
+    "pppratio": 1.861765384
+  },
+  {
+    "country": "Philippines",
+    "code": "PHL",
+    "pppratio": 19.0803676
+  },
+  {
+    "country": "Palau",
+    "code": "PLW",
+    "pppratio": 0.7943721002
+  },
+  {
+    "country": "Papua New Guinea",
+    "code": "PNG",
+    "pppratio": 2.29118559
+  },
+  {
+    "country": "Poland",
+    "code": "POL",
+    "pppratio": 1.822844
+  },
+  {
+    "country": "Pre-demographic dividend",
+    "code": "PRE",
+    "pppratio": ""
+  },
+  {
+    "country": "Puerto Rico",
+    "code": "PRI",
+    "pppratio": 0.9016755894
+  },
+  {
+    "country": "Korea, Dem. People's Rep.",
+    "code": "PRK",
+    "pppratio": ""
+  },
+  {
+    "country": "Portugal",
+    "code": "PRT",
+    "pppratio": 0.567658
+  },
+  {
+    "country": "Paraguay",
+    "code": "PRY",
+    "pppratio": 2675.061867
+  },
+  {
+    "country": "West Bank and Gaza",
+    "code": "PSE",
+    "pppratio": 0.5909780714
+  },
+  {
+    "country": "Pacific island small states",
+    "code": "PSS",
+    "pppratio": ""
+  },
+  {
+    "country": "Post-demographic dividend",
+    "code": "PST",
+    "pppratio": ""
+  },
+  {
+    "country": "French Polynesia",
+    "code": "PYF",
+    "pppratio": ""
+  },
+  {
+    "country": "Qatar",
+    "code": "QAT",
+    "pppratio": 2.374271393
+  },
+  {
+    "country": "Romania",
+    "code": "ROU",
+    "pppratio": 1.711896539
+  },
+  {
+    "country": "Russian Federation",
+    "code": "RUS",
+    "pppratio": 27.245891
+  },
+  {
+    "country": "Rwanda",
+    "code": "RWA",
+    "pppratio": 328.803913
+  },
+  {
+    "country": "South Asia",
+    "code": "SAS",
+    "pppratio": ""
+  },
+  {
+    "country": "Saudi Arabia",
+    "code": "SAU",
+    "pppratio": 1.762456024
+  },
+  {
+    "country": "Sudan",
+    "code": "SDN",
+    "pppratio": 71.79532718
+  },
+  {
+    "country": "Senegal",
+    "code": "SEN",
+    "pppratio": 233.7734235
+  },
+  {
+    "country": "Singapore",
+    "code": "SGP",
+    "pppratio": 0.8781570896
+  },
+  {
+    "country": "Solomon Islands",
+    "code": "SLB",
+    "pppratio": 6.776998046
+  },
+  {
+    "country": "Sierra Leone",
+    "code": "SLE",
+    "pppratio": 2.956319873
+  },
+  {
+    "country": "El Salvador",
+    "code": "SLV",
+    "pppratio": 0.4598755511
+  },
+  {
+    "country": "San Marino",
+    "code": "SMR",
+    "pppratio": 0.6838133517
+  },
+  {
+    "country": "Somalia",
+    "code": "SOM",
+    "pppratio": 9278.944277
+  },
+  {
+    "country": "Serbia",
+    "code": "SRB",
+    "pppratio": 42.38129644
+  },
+  {
+    "country": "Sub-Saharan Africa (excluding high income)",
+    "code": "SSA",
+    "pppratio": ""
+  },
+  {
+    "country": "South Sudan",
+    "code": "SSD",
+    "pppratio": ""
+  },
+  {
+    "country": "Sub-Saharan Africa",
+    "code": "SSF",
+    "pppratio": ""
+  },
+  {
+    "country": "Small states",
+    "code": "SST",
+    "pppratio": ""
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "code": "STP",
+    "pppratio": 11.01555611
+  },
+  {
+    "country": "Suriname",
+    "code": "SUR",
+    "pppratio": 5.88677203
+  },
+  {
+    "country": "Slovak Republic",
+    "code": "SVK",
+    "pppratio": 0.533391
+  },
+  {
+    "country": "Slovenia",
+    "code": "SVN",
+    "pppratio": 0.563187
+  },
+  {
+    "country": "Sweden",
+    "code": "SWE",
+    "pppratio": 8.721548
+  },
+  {
+    "country": "Eswatini",
+    "code": "SWZ",
+    "pppratio": 6.024779865
+  },
+  {
+    "country": "Sint Maarten (Dutch part)",
+    "code": "SXM",
+    "pppratio": 1.603696616
+  },
+  {
+    "country": "Seychelles",
+    "code": "SYC",
+    "pppratio": 7.190760497
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "code": "SYR",
+    "pppratio": ""
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "code": "TCA",
+    "pppratio": 1.062169585
+  },
+  {
+    "country": "Chad",
+    "code": "TCD",
+    "pppratio": 241.7308889
+  },
+  {
+    "country": "East Asia & Pacific (IDA & IBRD countries)",
+    "code": "TEA",
+    "pppratio": ""
+  },
+  {
+    "country": "Europe & Central Asia (IDA & IBRD countries)",
+    "code": "TEC",
+    "pppratio": ""
+  },
+  {
+    "country": "Togo",
+    "code": "TGO",
+    "pppratio": 226.7465562
+  },
+  {
+    "country": "Thailand",
+    "code": "THA",
+    "pppratio": 11.97489811
+  },
+  {
+    "country": "Tajikistan",
+    "code": "TJK",
+    "pppratio": 2.402469196
+  },
+  {
+    "country": "Turkmenistan",
+    "code": "TKM",
+    "pppratio": ""
+  },
+  {
+    "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+    "code": "TLA",
+    "pppratio": ""
+  },
+  {
+    "country": "Timor-Leste",
+    "code": "TLS",
+    "pppratio": 0.4936731662
+  },
+  {
+    "country": "Middle East & North Africa (IDA & IBRD countries)",
+    "code": "TMN",
+    "pppratio": ""
+  },
+  {
+    "country": "Tonga",
+    "code": "TON",
+    "pppratio": 1.487346986
+  },
+  {
+    "country": "South Asia (IDA & IBRD)",
+    "code": "TSA",
+    "pppratio": ""
+  },
+  {
+    "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+    "code": "TSS",
+    "pppratio": ""
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "code": "TTO",
+    "pppratio": 4.262545789
+  },
+  {
+    "country": "Tunisia",
+    "code": "TUN",
+    "pppratio": 0.9274367099
+  },
+  {
+    "country": "Turkiye",
+    "code": "TUR",
+    "pppratio": 2.807879
+  },
+  {
+    "country": "Tuvalu",
+    "code": "TUV",
+    "pppratio": 1.407729943
+  },
+  {
+    "country": "Tanzania",
+    "code": "TZA",
+    "pppratio": 923.7703102
+  },
+  {
+    "country": "Uganda",
+    "code": "UGA",
+    "pppratio": 1304.819162
+  },
+  {
+    "country": "Ukraine",
+    "code": "UKR",
+    "pppratio": 9.219199932
+  },
+  {
+    "country": "Upper middle income",
+    "code": "UMC",
+    "pppratio": ""
+  },
+  {
+    "country": "Uruguay",
+    "code": "URY",
+    "pppratio": 30.41869085
+  },
+  {
+    "country": "United States",
+    "code": "USA",
+    "pppratio": 1
+  },
+  {
+    "country": "Uzbekistan",
+    "code": "UZB",
+    "pppratio": 2457.054727
+  },
+  {
+    "country": "St. Vincent and the Grenadines",
+    "code": "VCT",
+    "pppratio": 1.478689283
+  },
+  {
+    "country": "Venezuela, RB",
+    "code": "VEN",
+    "pppratio": ""
+  },
+  {
+    "country": "British Virgin Islands",
+    "code": "VGB",
+    "pppratio": ""
+  },
+  {
+    "country": "Virgin Islands (U.S.)",
+    "code": "VIR",
+    "pppratio": ""
+  },
+  {
+    "country": "Vietnam",
+    "code": "VNM",
+    "pppratio": 7418.228742
+  },
+  {
+    "country": "Vanuatu",
+    "code": "VUT",
+    "pppratio": 107.8354739
+  },
+  {
+    "country": "World",
+    "code": "WLD",
+    "pppratio": ""
+  },
+  {
+    "country": "Samoa",
+    "code": "WSM",
+    "pppratio": 1.623769411
+  },
+  {
+    "country": "Kosovo",
+    "code": "XKX",
+    "pppratio": 0.3397670885
+  },
+  {
+    "country": "Yemen, Rep.",
+    "code": "YEM",
+    "pppratio": ""
+  },
+  {
+    "country": "South Africa",
+    "code": "ZAF",
+    "pppratio": 7.098052891
+  },
+  {
+    "country": "Zambia",
+    "code": "ZMB",
+    "pppratio": 6.374600235
+  },
+  {
+    "country": "Zimbabwe",
+    "code": "ZWE",
+    "pppratio": 85.45589506
+  }
+]
