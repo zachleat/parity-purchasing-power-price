@@ -3,6 +3,7 @@ class PPP extends HTMLElement {
 		from: "from",
 		to: "to",
 		currency: "from-currency",
+		currencyDisplay: "currency-display",
 		original: "data-original-value",
 	};
 
@@ -30,10 +31,11 @@ class PPP extends HTMLElement {
 
 		let localized = new Intl.NumberFormat(locale, {
 			style: "currency",
-			currency: currency,
+			currency,
+			currencyDisplay: this.getAttribute(PPP.attrs.currencyDisplay) || "symbol",
 		});
 
-		return localized.format(num) + ` ${currency}`;
+		return localized.format(num);
 	}
 
 	fetchAutoCountryCode() {
@@ -62,15 +64,18 @@ class PPP extends HTMLElement {
 		let fromPricing = PPP.pricing[from?.toUpperCase()];
 		let toPricing = PPP.pricing[to?.toUpperCase()];
 
-		if(fromPricing && toPricing) {
+		let price = this.getPrice(this.textContent);
+		if(fromPricing) {
 			this.setAttribute(PPP.attrs.original, this.textContent);
-
-			let price = this.getPrice(this.textContent);
+		}
+		if(fromPricing && toPricing) {
 			let fromRatio = parseFloat(fromPricing);
 			let toRatio = parseFloat(toPricing);
 			let newPrice = (price * (fromRatio/toRatio)).toFixed(2);
 
 			this.textContent = this.formatPrice(this.textContent, newPrice, toPricing.code);
+		} else if(fromPricing) {
+			this.textContent = this.formatPrice(this.textContent, price, fromPricing.code);
 		}
 	}
 }
