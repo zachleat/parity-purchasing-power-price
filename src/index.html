@@ -74,10 +74,38 @@ layout: layout.html
 			<td>With <code>from-currency="gbp"</code></td>
 		</tr>
 		<tr>
+			<td>CA 🇨🇦</td>
+			<td>$4.00 CAD</td>
+			<td>NZ 🇳🇿</td>
+			<td><parity-purchasing-price from="ca" to="nz">$4.00 CAD</parity-purchasing-price></td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>GB 🇬🇧</td>
 			<td>£6.77 GBP</td>
 			<td><code>auto</code></td>
 			<td><parity-purchasing-price from="gb">£6.77 GBP</parity-purchasing-price></td>
+			<td>Implicit <code>to="auto"</code></td>
+		</tr>
+		<tr>
+			<td>CA 🇨🇦</td>
+			<td>$4.00 CAD</td>
+			<td><code>auto</code></td>
+			<td><parity-purchasing-price from="gb">$4.00 CAD</parity-purchasing-price></td>
+			<td>Implicit <code>to="auto"</code></td>
+		</tr>
+		<tr>
+			<td>FR 🇫🇷</td>
+			<td>4 € EUR</td>
+			<td><code>auto</code></td>
+			<td><parity-purchasing-price from="fr" to="auto">4 € EUR</parity-purchasing-price></td>
+			<td>Implicit <code>to="auto"</code></td>
+		</tr>
+		<tr>
+			<td>DE 🇩🇪</td>
+			<td>4 € EUR</td>
+			<td><code>auto</code></td>
+			<td><parity-purchasing-price from="de" to="auto">4 € EUR</parity-purchasing-price></td>
 			<td>Implicit <code>to="auto"</code></td>
 		</tr>
 		<tr>
@@ -99,4 +127,5 @@ layout: layout.html
 
 <ul>
 	<li>Read more about <a href="https://cloudcannon.com/documentation/articles/using-geolocation-to-detect-your-users-country/">CloudCannon’s Geolocation feature</a> (used with <code>to="auto"</code> below).</li>
+	<li>Inspired by Wes Bos’ <a href="https://wesbos.com/parity-purchasing-power">Parity Purchasing Power</a> blog post.</li>
 </ul>
