@@ -11,10 +11,10 @@ class GeolocationDisplay extends HTMLElement {
 	}
 
 	connectedCallback() {
-		let code = this.fetchAutoCountryCode();
-		let data = GeolocationDisplay.data[code?.toUpperCase()];
-		if(data) {
-			this.textContent = `${data.flag} ${data.name}`;
+		let code = this.fetchAutoCountryCode()?.toUpperCase();
+		let flag = GeolocationDisplay.data[code];
+		if(code || flag) {
+			this.textContent = `${code}${flag ? ` ${flag}` : ""}`;
 		}
 	}
 }

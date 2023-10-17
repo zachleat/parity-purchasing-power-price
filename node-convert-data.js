@@ -24,10 +24,8 @@ for(let entry of raw) {
 		// If you want a min/max
 		// ratio = Math.max(Math.min(ratio, MAX_RATIO), MIN_RATIO);
 		data[code] = ratio;
-		flags[code] = {
-			name: country.country,
-			flag: countryCodeToFlagEmoji(code),
-		}
+
+		flags[code] = countryCodeToFlagEmoji(code);
 	}
 }
 
