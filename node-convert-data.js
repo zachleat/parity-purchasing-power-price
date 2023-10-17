@@ -1,11 +1,13 @@
 const fs = require("node:fs");
 const lookup = require("country-code-lookup");
+const { default: countryCodeToFlagEmoji } = require("country-code-to-flag-emoji");
 
 // const MIN_RATIO = 0.55555556; // $10 costs up to $18
 // const MAX_RATIO = 5; // $10 costs at least $2
 
 let raw = require("./data/ppp-worldbank-raw.json");
 let data = {};
+let flags = {};
 
 for(let entry of raw) {
 	let country = lookup.byIso(entry.code);
@@ -20,13 +22,23 @@ for(let entry of raw) {
 
 		// If you want a min/max
 		// ratio = Math.max(Math.min(ratio, MAX_RATIO), MIN_RATIO);
-
 		data[code] = ratio;
+		flags[code] = {
+			name: country.country,
+			flag: countryCodeToFlagEmoji(code),
+		}
 	}
 }
 
-const STRING_REPLACE = '"/* PRICING INJECTION */"';
-let content = fs.readFileSync("./data/ppp-raw.js", "utf8");
-content = content.split(STRING_REPLACE).join(JSON.stringify(data));
+const STRING_REPLACE = '"/* DATA INJECTION */"';
 
-fs.writeFileSync("./ppp.js", content);
+let pricingContent = fs.readFileSync("./data/ppp-raw.js", "utf8");
+pricingContent = pricingContent.split(STRING_REPLACE).join(JSON.stringify(data));
+
+fs.writeFileSync("./ppp.js", pricingContent);
+
+// Writes directly to output folder.
+let flagContent = fs.readFileSync("./data/geolocation-display-raw.js", "utf8");
+flagContent = flagContent.split(STRING_REPLACE).join(JSON.stringify(flags));
+fs.mkdirSync("./_site/js/", {recursive: true});
+fs.writeFileSync("./_site/js/geolocation-display.js", flagContent);

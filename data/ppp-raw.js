@@ -2,12 +2,12 @@ class PPP extends HTMLElement {
 	static attrs = {
 		from: "from",
 		to: "to",
-		currency: "from-currency",
+		currency: "currency",
 		currencyDisplay: "currency-display",
 		original: "data-original-value",
 	};
 
-	static pricing = "/* PRICING INJECTION */";
+	static pricing = "/* DATA INJECTION */";
 
 	getCurrency() {
 		let fromCurrency = this.getAttribute(PPP.attrs.currency);
