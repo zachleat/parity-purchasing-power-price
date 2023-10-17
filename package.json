@@ -30,6 +30,7 @@
     "country-code-to-flag-emoji": "^1.3.1"
   },
   "dependencies": {
+    "@zachleat/table-saw": "^1.0.6",
     "simpledotcss": "^2.2.1"
   }
 }

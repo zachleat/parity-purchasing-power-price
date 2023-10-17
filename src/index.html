@@ -14,185 +14,191 @@ layout: layout.html
 
 <p>Currency is parsed from three letter code in text content. Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#currencydisplay"><code>currency-display</code> options</a>.</p>
 
-<table>
-	<thead>
-		<tr>
-			<th>From</th>
-			<th>Input</th>
-			<th>To</th>
-			<th>Output</th>
-			<th>Note</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>USD $10</td>
-			<td>GB 🇬🇧</td>
-			<td><ppp-price from="us" to="gb">$10 USD</ppp-price></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>FR 🇫🇷</td>
-			<td>EUR 10 €</td>
-			<td>DE 🇩🇪</td>
-			<td><ppp-price from="fr" to="de">10 € EUR</ppp-price></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>FR 🇫🇷</td>
-			<td>EUR 20 €</td>
-			<td>DE 🇩🇪</td>
-			<td><ppp-price from="fr" to="de">20 € EUR</ppp-price></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>FR 🇫🇷</td>
-			<td>EUR 100 €</td>
-			<td>DE 🇩🇪</td>
-			<td><ppp-price from="fr" to="de">100 € EUR</ppp-price></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>USD $100</td>
-			<td>UY 🇺🇾</td>
-			<td><ppp-price from="us" to="uy">$100 USD</ppp-price></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>USD $10</td>
-			<td>GB 🇬🇧</td>
-			<td><ppp-price from="us" to="gb">$10 USD extra text that is stripped</ppp-price></td>
-			<td>Extra text is stripped.</td>
-		</tr>
-		<tr>
-			<td>GB 🇬🇧</td>
-			<td>GBP £10</td>
-			<td>US 🇺🇸</td>
-			<td><ppp-price from="gb" to="us">£10 GBP</ppp-price></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>$10 USD</td>
-			<td>GB 🇬🇧</td>
-			<td><ppp-price from="us" to="gb">$10 USD</ppp-price></td>
-			<td>Currency suffix</td>
-		</tr>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>$4.00 USD</td>
-			<td>GB 🇬🇧</td>
-			<td><ppp-price from="us" to="gb" currency-display="code">$4.00 USD</ppp-price></td>
-			<td>With <code>currency-display="code"</code></td>
-		</tr>
-	</tbody>
-</table>
+<table-saw>
+	<table>
+		<thead>
+			<tr>
+				<th>From</th>
+				<th>Input</th>
+				<th>To</th>
+				<th>Output</th>
+				<th>Note</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>USD $10</td>
+				<td>GB 🇬🇧</td>
+				<td><ppp-price from="us" to="gb">$10 USD</ppp-price></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>FR 🇫🇷</td>
+				<td>EUR 10 €</td>
+				<td>DE 🇩🇪</td>
+				<td><ppp-price from="fr" to="de">10 € EUR</ppp-price></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>FR 🇫🇷</td>
+				<td>EUR 20 €</td>
+				<td>DE 🇩🇪</td>
+				<td><ppp-price from="fr" to="de">20 € EUR</ppp-price></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>FR 🇫🇷</td>
+				<td>EUR 100 €</td>
+				<td>DE 🇩🇪</td>
+				<td><ppp-price from="fr" to="de">100 € EUR</ppp-price></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>USD $100</td>
+				<td>UY 🇺🇾</td>
+				<td><ppp-price from="us" to="uy">$100 USD</ppp-price></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>USD $10</td>
+				<td>GB 🇬🇧</td>
+				<td><ppp-price from="us" to="gb">$10 USD extra text that is stripped</ppp-price></td>
+				<td>Extra text is stripped.</td>
+			</tr>
+			<tr>
+				<td>GB 🇬🇧</td>
+				<td>GBP £10</td>
+				<td>US 🇺🇸</td>
+				<td><ppp-price from="gb" to="us">£10 GBP</ppp-price></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>$10 USD</td>
+				<td>GB 🇬🇧</td>
+				<td><ppp-price from="us" to="gb">$10 USD</ppp-price></td>
+				<td>Currency suffix</td>
+			</tr>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>$4.00 USD</td>
+				<td>GB 🇬🇧</td>
+				<td><ppp-price from="us" to="gb" currency-display="code">$4.00 USD</ppp-price></td>
+				<td>With <code>currency-display="code"</code></td>
+			</tr>
+		</tbody>
+	</table>
+</table-saw>
 
 <h2>Explicit <code>currency</code></h2>
 
 <p>Currency code is specified in <code>currency</code> attribute. Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#currencydisplay"><code>currency-display</code> options</a>.</p>
 
-<table>
-	<thead>
-		<tr>
-			<th>From</th>
-			<th>Input</th>
-			<th>To</th>
-			<th>Output</th>
-			<th>Note</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>GB 🇬🇧</td>
-			<td>£10</td>
-			<td>US 🇺🇸</td>
-			<td><ppp-price from="gb" to="us" currency="GBP">£10</ppp-price></td>
-			<td>With <code>currency="GBP"</code></td>
-		</tr>
-		<tr>
-			<td>GB 🇬🇧</td>
-			<td>£10</td>
-			<td>US 🇺🇸</td>
-			<td><ppp-price from="gb" to="us" currency="GBP" currency-display="code">£10</ppp-price></td>
-			<td>With <code>currency="GBP" currency-display="code"</code></td>
-		</tr>
-		<tr>
-			<td>CA 🇨🇦</td>
-			<td>$4.00</td>
-			<td>NZ 🇳🇿</td>
-			<td><ppp-price from="ca" to="nz" currency="CAD">$4.00</ppp-price></td>
-			<td>With <code>currency="CAD"</code></td>
-		</tr>
-		<tr>
-			<td>CA 🇨🇦</td>
-			<td>$4.00</td>
-			<td>NZ 🇳🇿</td>
-			<td><ppp-price from="ca" to="nz" currency="CAD" currency-display="code">$4.00</ppp-price></td>
-			<td>With <code>currency="CAD" currency-display="code"</code></td>
-		</tr>
-	</tbody>
-</table>
+<table-saw>
+	<table>
+		<thead>
+			<tr>
+				<th>From</th>
+				<th>Input</th>
+				<th>To</th>
+				<th>Output</th>
+				<th>Note</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>GB 🇬🇧</td>
+				<td>£10</td>
+				<td>US 🇺🇸</td>
+				<td><ppp-price from="gb" to="us" currency="GBP">£10</ppp-price></td>
+				<td>With <code>currency="GBP"</code></td>
+			</tr>
+			<tr>
+				<td>GB 🇬🇧</td>
+				<td>£10</td>
+				<td>US 🇺🇸</td>
+				<td><ppp-price from="gb" to="us" currency="GBP" currency-display="code">£10</ppp-price></td>
+				<td>With <code>currency="GBP" currency-display="code"</code></td>
+			</tr>
+			<tr>
+				<td>CA 🇨🇦</td>
+				<td>$4.00</td>
+				<td>NZ 🇳🇿</td>
+				<td><ppp-price from="ca" to="nz" currency="CAD">$4.00</ppp-price></td>
+				<td>With <code>currency="CAD"</code></td>
+			</tr>
+			<tr>
+				<td>CA 🇨🇦</td>
+				<td>$4.00</td>
+				<td>NZ 🇳🇿</td>
+				<td><ppp-price from="ca" to="nz" currency="CAD" currency-display="code">$4.00</ppp-price></td>
+				<td>With <code>currency="CAD" currency-display="code"</code></td>
+			</tr>
+		</tbody>
+	</table>
+</table-saw>
 
 <h2>Using Geolocation</h2>
 
 <p><em>(Optional)</em> The country code is provided for the visitor automatically using <a href="https://cloudcannon.com/documentation/articles/using-geolocation-to-detect-your-users-country/">CloudCannon’s Geolocation feature</a>.</p>
 
-<table>
-	<thead>
-		<tr>
-			<th>From</th>
-			<th>Input</th>
-			<th>To</th>
-			<th>Output</th>
-			<th>Note</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>GB 🇬🇧</td>
-			<td>GBP £6.77</td>
-			<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
-			<td><ppp-price from="gb">£6.77 GBP</ppp-price></td>
-			<td>Implicit</td>
-		</tr>
-		<tr>
-			<td>CA 🇨🇦</td>
-			<td>4.00</td>
-			<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
-			<td><ppp-price from="gb" currency="CAD">4.00</ppp-price></td>
-			<td>Implicit, with <code>currency="CAD"</code></td>
-		</tr>
-		<tr>
-			<td>FR 🇫🇷</td>
-			<td>EUR 4 €</td>
-			<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
-			<td><ppp-price from="fr" to="auto">4 € EUR</ppp-price></td>
-			<td>Implicit</td>
-		</tr>
-		<tr>
-			<td>DE 🇩🇪</td>
-			<td>EUR 4 €</td>
-			<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
-			<td><ppp-price from="de" to="auto">4 € EUR</ppp-price></td>
-			<td>Implicit</td>
-		</tr>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>USD $4.00</td>
-			<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
-			<td><ppp-price from="us">$4.00 USD</ppp-price></td>
-			<td>Implicit</td>
-		</tr>
-		<tr>
-			<td>US 🇺🇸</td>
-			<td>USD $4.00</td>
-			<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
-			<td><ppp-price from="us" to="auto">$4.00 USD</ppp-price></td>
-			<td>With explicit <code>to="auto"</code></td>
-		</tr>
-	</tbody>
-</table>
+<table-saw>
+	<table>
+		<thead>
+			<tr>
+				<th>From</th>
+				<th>Input</th>
+				<th>To</th>
+				<th>Output</th>
+				<th>Note</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>GB 🇬🇧</td>
+				<td>GBP £6.77</td>
+				<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
+				<td><ppp-price from="gb">£6.77 GBP</ppp-price></td>
+				<td>Implicit</td>
+			</tr>
+			<tr>
+				<td>CA 🇨🇦</td>
+				<td>4.00</td>
+				<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
+				<td><ppp-price from="gb" currency="CAD">4.00</ppp-price></td>
+				<td>Implicit, with <code>currency="CAD"</code></td>
+			</tr>
+			<tr>
+				<td>FR 🇫🇷</td>
+				<td>EUR 4 €</td>
+				<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
+				<td><ppp-price from="fr" to="auto">4 € EUR</ppp-price></td>
+				<td>Implicit</td>
+			</tr>
+			<tr>
+				<td>DE 🇩🇪</td>
+				<td>EUR 4 €</td>
+				<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
+				<td><ppp-price from="de" to="auto">4 € EUR</ppp-price></td>
+				<td>Implicit</td>
+			</tr>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>USD $4.00</td>
+				<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
+				<td><ppp-price from="us">$4.00 USD</ppp-price></td>
+				<td>Implicit</td>
+			</tr>
+			<tr>
+				<td>US 🇺🇸</td>
+				<td>USD $4.00</td>
+				<td><geolocation-display suffix=" (auto)">Unknown</geolocation-display></td>
+				<td><ppp-price from="us" to="auto">$4.00 USD</ppp-price></td>
+				<td>With explicit <code>to="auto"</code></td>
+			</tr>
+		</tbody>
+	</table>
+</table-saw>

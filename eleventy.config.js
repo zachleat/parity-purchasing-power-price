@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
 		"./node_modules/simpledotcss/simple.css": "/css/simple.css",
 		"./ppp.js": "/js/ppp.js",
 		"./src/public/geolocation-display.js": "/js/geolocation-display.js",
+		"./node_modules/@zachleat/table-saw/table-saw.js": "/js/table-saw.js",
 	});
 
 	eleventyConfig.setServerOptions({
