@@ -3,6 +3,9 @@ const lookup = require("country-code-lookup");
 const { default: countryCodeToFlagEmoji } = require("country-code-to-flag-emoji");
 const pkg = require("./package.json");
 
+const PPP_BANNER = `/* <ppp-price> Web Component v${pkg.version} */\n\n`;
+const GEO_BANNER = `/* <geolocation-display> Web Component */\n\n`;
+
 // const MIN_RATIO = 0.55555556; // $10 costs up to $18
 // const MAX_RATIO = 5; // $10 costs at least $2
 
@@ -30,15 +33,13 @@ for(let entry of raw) {
 }
 
 const STRING_REPLACE = '"/* DATA INJECTION */"';
-const PPP_PREFIX = `/* ppp-price Web Component v${pkg.version} */\n\n`;
-const GEO_PREFIX = `/* geolocation-display Web Component */\n\n`;
 
 let pricingContent = fs.readFileSync("./data/ppp-raw.js", "utf8");
 pricingContent = pricingContent.split(STRING_REPLACE).join(JSON.stringify(data));
 
-fs.writeFileSync("./ppp.js", `${PPP_PREFIX}${pricingContent}`);
+fs.writeFileSync("./ppp.js", `${PPP_BANNER}${pricingContent}`);
 
 let flagContent = fs.readFileSync("./data/geolocation-display-raw.js", "utf8");
 flagContent = flagContent.split(STRING_REPLACE).join(JSON.stringify(flags));
 fs.mkdirSync("./src/public/", {recursive: true});
-fs.writeFileSync("./src/public/geolocation-display.js", `${GEO_PREFIX}${flagContent}`);
+fs.writeFileSync("./src/public/geolocation-display.js", `${GEO_BANNER}${flagContent}`);

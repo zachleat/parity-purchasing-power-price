@@ -1,4 +1,4 @@
-/* ppp-price Web Component v1.0.0 */
+/* <ppp-price> Web Component v1.0.0 */
 
 class PPP extends HTMLElement {
 	static attrs = {
