@@ -13,6 +13,7 @@ class GeolocationDisplay extends HTMLElement {
 	connectedCallback() {
 		let code = this.fetchAutoCountryCode();
 		let data = GeolocationDisplay.data[code];
+		console.log( this, code, data );
 		if(data) {
 			this.textContent = `${data.flag} ${data.name}`;
 		}
