@@ -2,8 +2,26 @@
 
 A small structural-only zero-dependency Web Component to show Parity Purchasing Power normalized prices. Inspired by the [Wes Bos blog post](https://wesbos.com/parity-purchasing-power).
 
+* [Demo](https://wooden-macadamia.cloudvent.net/)
+
 ## Usage
 
+```html
+<!-- outputs $14.78 -->
+<ppp-price from="us" to="gb" currency="usd">$10</ppp-price>
+<ppp-price from="us" to="gb">$10 USD</ppp-price>
+
+<!-- outputs €9.76 -->
+<ppp-price from="fr" to="de" currency="eur">10€</ppp-price>
+
+<!-- uses CloudCannon geolocation for country -->
+<ppp-price from="fr" currency="eur">10€</ppp-price>
+```
+
+* Attempts to look for currency type in text or via `currency` attribute.
+* Outputs use the `Intl.NumberFormat` API to properly format currency values.
+	* Use `currency-display="code"` to output currency code in text. Read more about [`currency-display` options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#currencydisplay).
+* Leave out the `to` attribute or use `to="auto"` to use [CloudCannon geolocation feature](https://cloudcannon.com/documentation/articles/using-geolocation-to-detect-your-users-country/).
 
 ## Installation
 
