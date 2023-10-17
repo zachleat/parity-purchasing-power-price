@@ -22,7 +22,7 @@ class GeolocationDisplay extends HTMLElement {
 		let code = this.fetchAutoCountryCode()?.toUpperCase();
 		let flag = GeolocationDisplay.data[code];
 		if(code || flag) {
-			this.textContent = `${this.getSuffix()}${code}${flag ? ` ${flag}` : ""}${this.getSuffix()}`;
+			this.textContent = `${this.getPrefix()}${code}${flag ? ` ${flag}` : ""}${this.getSuffix()}`;
 		}
 	}
 }
