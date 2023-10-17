@@ -12,11 +12,19 @@ class GeolocationDisplay extends HTMLElement {
 		}
 	}
 
+	getPrefix() {
+		return this.getAttribute("prefix") || "";
+	}
+
+	getSuffix() {
+		return this.getAttribute("suffix") || "";
+	}
+
 	connectedCallback() {
 		let code = this.fetchAutoCountryCode()?.toUpperCase();
 		let flag = GeolocationDisplay.data[code];
 		if(code || flag) {
-			this.textContent = `${code}${flag ? ` ${flag}` : ""}`;
+			this.textContent = `${this.getSuffix()}${code}${flag ? ` ${flag}` : ""}${this.getSuffix()}`;
 		}
 	}
 }
