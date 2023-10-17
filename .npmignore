@@ -1,4 +1,5 @@
 src/
 data/
+_site/
 node-convert-data.js
 eleventy.config.js
