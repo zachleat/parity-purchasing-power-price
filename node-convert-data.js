@@ -30,7 +30,7 @@ for(let entry of raw) {
 }
 
 const STRING_REPLACE = '"/* DATA INJECTION */"';
-const PPP_PREFIX = `/* parity-purchasing-price Web Component v${pkg.version} */\n\n`;
+const PPP_PREFIX = `/* ppp-price Web Component v${pkg.version} */\n\n`;
 const GEO_PREFIX = `/* geolocation-display Web Component */\n\n`;
 
 let pricingContent = fs.readFileSync("./data/ppp-raw.js", "utf8");

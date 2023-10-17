@@ -1,4 +1,4 @@
-/* parity-purchasing-price Web Component v1.0.0 */
+/* ppp-price Web Component v1.0.0 */
 
 class PPP extends HTMLElement {
 	static attrs = {
@@ -83,5 +83,5 @@ class PPP extends HTMLElement {
 }
 
 if("customElements" in window) {
-	window.customElements.define("parity-purchasing-price", PPP);
+	window.customElements.define("ppp-price", PPP);
 }

@@ -81,5 +81,5 @@ class PPP extends HTMLElement {
 }
 
 if("customElements" in window) {
-	window.customElements.define("parity-purchasing-price", PPP);
+	window.customElements.define("ppp-price", PPP);
 }
