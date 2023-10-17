@@ -37,8 +37,7 @@ pricingContent = pricingContent.split(STRING_REPLACE).join(JSON.stringify(data))
 
 fs.writeFileSync("./ppp.js", pricingContent);
 
-// Writes directly to output folder.
 let flagContent = fs.readFileSync("./data/geolocation-display-raw.js", "utf8");
 flagContent = flagContent.split(STRING_REPLACE).join(JSON.stringify(flags));
-fs.mkdirSync("./_site/js/", {recursive: true});
-fs.writeFileSync("./_site/js/geolocation-display.js", flagContent);
+fs.mkdirSync("./src/public/", {recursive: true});
+fs.writeFileSync("./src/public/geolocation-display.js", flagContent);
