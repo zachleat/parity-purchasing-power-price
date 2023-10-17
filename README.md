@@ -6,7 +6,6 @@ Please note that this is **not a currency converter** (you will get the same cur
 
 * [Demo](https://wooden-macadamia.cloudvent.net/)
 
-
 ## Usage
 
 ```html
