@@ -49,4 +49,4 @@ This step is run with `npm start`. Raw data sourced from World Bank (2021): http
 npm run data
 ```
 
-This will also inject the data into the ppp.js Web Component file.
+This will create a standalone `ppp-data.json` file for backend implementation and inject the data into the `ppp.js` Web Component file for use on the frontend too.
