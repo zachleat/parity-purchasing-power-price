@@ -36,8 +36,8 @@ const STRING_REPLACE = '"/* DATA INJECTION */"';
 
 let pricingContent = fs.readFileSync("./data/ppp-raw.js", "utf8");
 pricingContent = pricingContent.split(STRING_REPLACE).join(JSON.stringify(data));
-
 fs.writeFileSync("./ppp.js", `${PPP_BANNER}${pricingContent}`);
+fs.writeFileSync("./ppp-data.json", JSON.stringify(data, null, 2));
 
 let flagContent = fs.readFileSync("./data/geolocation-display-raw.js", "utf8");
 flagContent = flagContent.split(STRING_REPLACE).join(JSON.stringify(flags));
