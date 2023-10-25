@@ -1,6 +1,6 @@
 {
   "name": "@zachleat/parity-purchasing-power-price",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web Component to show Parity Purchasing Power normalized prices.",
   "main": "ppp.js",
   "scripts": {
