@@ -4,7 +4,7 @@ A small structural-only zero-dependency Web Component to show Parity Purchasing 
 
 Please note that this is **not a currency converter** (you will get the same currency out that you put in). It transforms the number value with a parity purchasing ratio to normalize that cost to a new price for a specified country.
 
-* [Demo](https://wooden-macadamia.cloudvent.net/)
+* [Demo](https://ppp-price.zachleat.dev/)
 
 ## Usage
 
